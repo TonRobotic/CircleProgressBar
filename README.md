@@ -1,7 +1,7 @@
 # CircleProgressBar
 Hello Android Devloper 
 
-How to get Libraly
+How to get Library
 
 Step 1. Add the JitPack repository to your build file
 
