@@ -16,7 +16,7 @@ allprojects {
  
  dependencies {
 	        implementation 'com.github.TonRobotic:CircleProgressBar:Tag'
-	}
+}
 
  
 [![](https://jitpack.io/v/TonRobotic/CircleProgressBar.svg)](https://jitpack.io/#TonRobotic/CircleProgressBar)
