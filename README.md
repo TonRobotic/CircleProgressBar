@@ -15,7 +15,7 @@ allprojects {
  Step 2. Add the dependency
  
  dependencies {
-	        implementation 'com.github.TonRobotic:CircleProgressBar:Tag'
+	        implementation 'com.github.TonRobotic:CircleProgressBar:1.0.1'
 }
 
  
