@@ -20,6 +20,24 @@ Step 2. Add the dependency
 	}
 
  
-[![](https://jitpack.io/v/TonRobotic/CircleProgressBar.svg)](https://jitpack.io/#TonRobotic/CircleProgressBar)
- 
- 
+How to use.
+
+	class MainActivity : AppCompatActivity() {
+
+	    lateinit var mainBinding:ActivityMainBinding
+	    lateinit var valueAnimator:ValueAnimator
+
+	    override fun onCreate(savedInstanceState: Bundle?) {
+		super.onCreate(savedInstanceState)
+		mainBinding = ActivityMainBinding.inflate(layoutInflater)
+		setContentView(mainBinding.root)
+
+		valueAnimator = ValueAnimator.ofInt(0,65) // offset value progress bar 0 .. 100 
+		valueAnimator.apply {
+		    duration = 2000 // time delay in millisec (ms)
+		    addUpdateListener(mainBinding.progressbar) 
+		}.start()
+
+	    }
+	}
+
