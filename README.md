@@ -59,7 +59,7 @@ Activity Class
 		mainBinding = ActivityMainBinding.inflate(layoutInflater)
 		setContentView(mainBinding.root)
 
-		valueAnimator = ValueAnimator.ofInt(0,65) // offset value progress bar 0 .. 100 
+		valueAnimator = ValueAnimator.ofInt(0,65) // offset value progressbar 0 .. 100 
 		valueAnimator.apply {
 		    duration = 2000 // time delay in millisec (ms)
 		    addUpdateListener(mainBinding.progressbar) 
