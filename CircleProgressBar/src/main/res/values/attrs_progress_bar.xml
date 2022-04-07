@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="ProgressBar">
+        <attr name="borderProgressBarSize" format="dimension" />
+        <attr name="scaleColor" format="color" />
+        <attr name="valueColor" format="color"/>
+        <attr name="valueProgressBar" format="integer"/>
+    </declare-styleable>
+</resources>
