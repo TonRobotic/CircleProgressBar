@@ -1,8 +1,15 @@
 <resources>
+    <attr name="modeProgressBar">
+        <enum name="circle" value="0"/>
+        <enum name="oval" value="1"/>
+    </attr>
     <declare-styleable name="ProgressBar">
         <attr name="borderProgressBarSize" format="dimension" />
         <attr name="scaleColor" format="color" />
         <attr name="valueColor" format="color"/>
         <attr name="valueProgressBar" format="integer"/>
+        <attr name="mixColor" format="integer"/>
+        <attr name="modeProgressBar"/>
     </declare-styleable>
+
 </resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="progressBarMixColor">
+        <item>@android:color/holo_red_dark</item>
+        <item>@android:color/holo_blue_dark</item>
+        <item>@android:color/holo_orange_dark</item>
+    </integer-array>
+</resources>

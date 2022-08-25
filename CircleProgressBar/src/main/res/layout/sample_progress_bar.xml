@@ -8,6 +8,7 @@
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:paddingLeft="20dp"
+        app:scaleColor="@android:color/darker_gray"
         android:paddingBottom="40dp" />
 
 </FrameLayout>
