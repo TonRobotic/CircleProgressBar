@@ -39,6 +39,7 @@ xml
 		android:layout_height="120dp"
 		app:scaleColor="@android:color/darker_gray"
 		app:valueColor="@android:color/holo_blue_dark"
+		app:scaleMode="oval"
 		app:borderProgressBarSize="8dp"
 		app:layout_constraintBottom_toBottomOf="parent"
 		app:layout_constraintEnd_toEndOf="parent"
